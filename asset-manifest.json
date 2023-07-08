@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TanyaVlasova/email-constructor/static/css/main.77e274af.css",
+    "main.js": "/TanyaVlasova/email-constructor/static/js/main.6c9e6561.js",
+    "static/media/clear.svg": "/TanyaVlasova/email-constructor/static/media/clear.62d542d8225e9ae56794bdce0b546338.svg",
+    "index.html": "/TanyaVlasova/email-constructor/index.html",
+    "main.77e274af.css.map": "/TanyaVlasova/email-constructor/static/css/main.77e274af.css.map",
+    "main.6c9e6561.js.map": "/TanyaVlasova/email-constructor/static/js/main.6c9e6561.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77e274af.css",
+    "static/js/main.6c9e6561.js"
+  ]
+}
