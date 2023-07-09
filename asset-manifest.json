@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/TanyaVlasova/email-constructor/static/css/main.77e274af.css",
-    "main.js": "/TanyaVlasova/email-constructor/static/js/main.6c9e6561.js",
+    "main.css": "/TanyaVlasova/email-constructor/static/css/main.0a190b4b.css",
+    "main.js": "/TanyaVlasova/email-constructor/static/js/main.627e4175.js",
+    "static/media/CeraPro-Regular.ttf": "/TanyaVlasova/email-constructor/static/media/CeraPro-Regular.1b7f7963cbafd9cc1e33.ttf",
+    "static/media/CloserText-Regular.otf": "/TanyaVlasova/email-constructor/static/media/CloserText-Regular.c1c055d4a1ebca9d1870.otf",
+    "static/media/CloserText-Medium.otf": "/TanyaVlasova/email-constructor/static/media/CloserText-Medium.5f6a3156fabe97534f56.otf",
     "static/media/clear.svg": "/TanyaVlasova/email-constructor/static/media/clear.62d542d8225e9ae56794bdce0b546338.svg",
     "index.html": "/TanyaVlasova/email-constructor/index.html",
-    "main.77e274af.css.map": "/TanyaVlasova/email-constructor/static/css/main.77e274af.css.map",
-    "main.6c9e6561.js.map": "/TanyaVlasova/email-constructor/static/js/main.6c9e6561.js.map"
+    "main.0a190b4b.css.map": "/TanyaVlasova/email-constructor/static/css/main.0a190b4b.css.map",
+    "main.627e4175.js.map": "/TanyaVlasova/email-constructor/static/js/main.627e4175.js.map"
   },
   "entrypoints": [
-    "static/css/main.77e274af.css",
-    "static/js/main.6c9e6561.js"
+    "static/css/main.0a190b4b.css",
+    "static/js/main.627e4175.js"
   ]
 }
