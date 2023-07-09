@@ -1,41 +1,30 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 
-import PasteField from './components/PasteField';
-import emailElems from './data/emailElems';
+import ConstructedEmail from './components/ConstructedEmail';
+import EmailElems from './components/EmailElems';
+import Toast from './components/Toast';
 import styles from './App.module.css';
 
 import type { FC } from 'react';
 
 const App: FC = () => {
-  const [code, setCode] = useState('');
-  const fields = useMemo(() => {
-    return [...new Array(6)];
-  }, []);
-
-  const copyHTML = (code: string) => {
-   setCode(code);
+  const [copiedCode, setCopiedCode] = useState('');
+  const [visibleToast, setVisibleToast] = useState(false);
+  const copyCode = (code: string) => {
+    setCopiedCode(code);
+    setVisibleToast(true);
+    setTimeout(() => setVisibleToast(false), 2000);
   };
 
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <div className={styles.buttons}>
-          <button className={styles.button} onClick={() => copyHTML(emailElems.hello)}>
-            Приветствие
-          </button>
-          <button className={styles.button} onClick={() => copyHTML(emailElems.howAreYou)}>
-            Как дела?
-          </button>
-          <button className={styles.button} onClick={() => copyHTML(emailElems.story)}>
-            История
-          </button>
-        </div>
-        <div className={styles.output}>
-          {fields.map((field, index) => <PasteField code={code} key={index} />)}
-        </div>
+        <ConstructedEmail className={styles.constructedEmail} copiedCode={copiedCode} />
+        <EmailElems className={styles.emailElems} copyCode={copyCode} />
+        <Toast className={styles.toast} text='Скопировано' visible={visibleToast} />
       </div>
     </div>
   );
-}
+};
 
 export default App;

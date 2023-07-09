@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./fonts/CeraPro-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Closer Text';
+  src: url('./fonts/CloserText-Medium.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Closer Text';
+  src: url('./fonts/CloserText-Regular.otf');
+  font-weight: 400;
+}

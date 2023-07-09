@@ -1,0 +1,18 @@
+.toast {
+  min-width: 100px;
+  border-radius: 10px;
+  background-color: #404040;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 200ms;
+  font-size: 16px;
+}
+
+.toast.visible {
+  opacity: 1;
+}

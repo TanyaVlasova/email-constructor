@@ -1,0 +1,40 @@
+.wrapper {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 560px;
+  padding: 15px 0;
+}
+
+.header {
+  display: flex;
+  padding: 0 15px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: 'Closer Text';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.copy {
+  color: #989898;
+  cursor: pointer;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 10px 20px;
+  opacity: 0;
+  font-size: 16px;
+  transition: opacity 200ms;
+}
+
+* {
+  cursor: default;
+}
+
+.wrapper:hover .copy {
+  opacity: 1;
+}

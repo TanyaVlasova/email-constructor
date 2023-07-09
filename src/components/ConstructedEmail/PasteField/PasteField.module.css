@@ -1,12 +1,25 @@
 .field {
-  width: 100%;
   min-height: 60px;
-  background-color: #eeeeee;
+  border-radius: 10px;
   position: relative;
   display: flex;
   align-items: center;
-  padding: 7px 20px;
-  color: #000;
+}
+
+.field.empty {
+  margin: 10px 15px;
+}
+
+.field.empty:first-child {
+  margin: 20px 15px 10px;
+}
+
+.field.empty:last-child {
+  margin: 10px 15px 20px;
+}
+
+.field.empty {
+  border: 1px dashed #c4c4c4;
 }
 
 .paste {
@@ -21,6 +34,9 @@
   opacity: 0;
   transition: opacity 200ms;
   cursor: pointer;
+  font-family: 'Cera Pro', sans-serif;
+  color: #989898;
+  font-size: 16px;
 }
 
 :is(.paste, .clear).hidden {
@@ -29,7 +45,8 @@
 
 .clear {
   position: absolute;
-  right: 20px;
+  top: 15px;
+  right: 15px;
   opacity: 0;
   transition: opacity 200ms;
   cursor: pointer;
